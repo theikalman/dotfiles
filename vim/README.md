@@ -3,14 +3,13 @@ Vim Configurations
 
 ## Installation
 
-1. Clone this repository
-2. Create link to this repository for vim
+1. Create link to this repository for vim
 
-    `ln -s ./dotfiles/vim ~/.vim && ln -s ./dotfiles/vim/vimrc ~/.vimrc`
+    `ln -s <path_to_this_repo>/vim ~/.vim && ln -s ./dotfiles/vim/vimrc ~/.vimrc`
 
-3. Clone vim plugin manager (vundle) with command: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+2. Clone vim plugin manager (vundle) with command: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
 
-4. Go to vim and execute `:PluginInstall` command. After that, configure
+3. Go to vim and execute `:PluginInstall` command. After that, configure
    the plugin.
 
 
