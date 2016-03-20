@@ -49,7 +49,7 @@ set winminheight=0
 filetype plugin indent on
 "set mouse=a                                    " I prefer with no mouse
 syntax enable
-set background=light
+set background=dark
 " ------------------------------------------------------------------------}}}
 
 
