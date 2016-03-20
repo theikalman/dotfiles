@@ -8,7 +8,9 @@ Vim Configurations
 
     `ln -s ./dotfiles/vim ~/.vim && ln -s ./dotfiles/vim/vimrc ~/.vimrc`
 
-3. Go to vim and execute `:PluginInstall` command. After that, configure
+3. Clone vim plugin manager (vundle) with command: `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+
+4. Go to vim and execute `:PluginInstall` command. After that, configure
    the plugin.
 
 
