@@ -101,6 +101,12 @@ nnoremap L <C-W>L
 nnoremap q :q<CR>
 nnoremap Q :q!<CR>
 nnoremap w :w<CR>
+" map split window
+nnoremap v <C-W>v
+nnoremap s <C-W>s
+" map window resize
+nnoremap = <C-W>=
+nnoremap _ <C-W>_
 " ------------------------------------------------------------------------}}}
 
 
