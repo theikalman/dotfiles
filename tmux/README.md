@@ -5,17 +5,16 @@
 
 ## Install TPM (Tmux Plugin Manager)
 
-Clone repository:
+- Clone TPM repository:
+    `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 
+- Create symbolic link to tmux configuration:
+    `ln -s <path_to_this_repo>/tmux/tmux.conf ~/.tmux.conf`
 
-`git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
+- Open tmux session:
+    `tmux new-session -s <SessionName>`
 
-
-Run plugin installation process using:
-
-
-`prefix + I`
-
-
+- Run plugin installation process using:
+    `prefix + I`
 
 Reference: [TPM](https://github.com/tmux-plugins/tpm)
