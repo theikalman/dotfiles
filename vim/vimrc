@@ -93,19 +93,11 @@ nnoremap h <C-W>h
 nnoremap j <C-W>j
 nnoremap k <C-W>k
 nnoremap l <C-W>l
-inoremap h <Esc><C-W>hi
-inoremap j <Esc><C-W>ji
-inoremap k <Esc><C-W>ki
-inoremap l <Esc><C-W>li
 " map window movement to Alt+HJKL
 nnoremap H <C-W>H
 nnoremap J <C-W>J
 nnoremap K <C-W>K
 nnoremap L <C-W>L
-inoremap H <Esc><C-W>Hli
-inoremap J <Esc><C-W>Jli
-inoremap K <Esc><C-W>Kli
-inoremap L <Esc><C-W>Lli
 " map quit and write
 nnoremap q :q<CR>
 nnoremap Q :q!<CR>
