@@ -108,6 +108,8 @@ nnoremap s <C-W>s
 " map window resize
 nnoremap = <C-W>=
 nnoremap _ <C-W>_
+" map :nohighlight command
+nnoremap <F3> :noh<CR>
 " ------------------------------------------------------------------------}}}
 
 
