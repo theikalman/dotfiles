@@ -108,6 +108,9 @@ nnoremap s <C-W>s
 " map window resize
 nnoremap = <C-W>=
 nnoremap _ <C-W>_
+nnoremap <F3> :nohlsearch<CR>
+inoremap <F3> :nohlsearch<CR>
+:set pastetoggle=<F4>
 " ------------------------------------------------------------------------}}}
 
 
