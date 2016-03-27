@@ -38,7 +38,7 @@ set showmatch
 set smartcase
 set smartindent
 set term=screen-256color
-set ts=4 sts=4 sw=4 expandtab
+set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set novisualbell
 set winwidth=85
 set winheight=30
@@ -109,7 +109,8 @@ nnoremap s <C-W>s
 nnoremap = <C-W>=
 nnoremap _ <C-W>_
 " map :nohighlight command
-nnoremap <F3> :noh<CR>
+nnoremap <F3> :nohlsearch<CR>
+inoremap <F3> :nohlsearch<CR>
 " ------------------------------------------------------------------------}}}
 
 
