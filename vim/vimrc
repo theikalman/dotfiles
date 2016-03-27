@@ -49,6 +49,7 @@ filetype plugin indent on
 "set mouse=a                                    " I prefer with no mouse
 syntax enable
 set background=dark
+colorscheme solarized
 " ------------------------------------------------------------------------}}}
 
 
@@ -73,8 +74,6 @@ filetype plugin indent on    " required
 
 
 " -------------------------- PLUGIN'S CONFIG -----------------------------{{{
-" solarized colorscheme
-colorscheme solarized
 " syntastic
 let g:syntastic_python_python_exec = '/usr/bin/python3'
 let g:syntastic_python_checkers = ['pep8']
