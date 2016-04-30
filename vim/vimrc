@@ -63,6 +63,7 @@ Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
 Plugin 'valloric/youcompleteme'                 " Autocomplete
 Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
+Plugin 'latex-box-team/latex-box'               " Latex plugin
 " ------------------------------------------------------------------------}}}
 
 
