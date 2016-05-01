@@ -78,6 +78,7 @@ filetype plugin indent on    " required
 " syntastic
 let g:syntastic_python_python_exec = '/usr/bin/python3'
 let g:syntastic_python_checkers = ['pep8']
+let g:syntastic_python_pep8_args = '--max-line-length=100' " Sometimes 79 is too short :)
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
