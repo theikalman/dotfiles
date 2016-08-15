@@ -95,6 +95,7 @@ DEFAULT_USER="ajiyakin"
 
 # Virtualenvwrapper configurations
 export WORKON_HOME=~/Envs
+export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3
 
 # Gopath configurations
 export GOPATH=$HOME/Sources/Go
