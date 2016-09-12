@@ -1,0 +1,15 @@
+session_name: PHP
+windows:
+  - window_name: Editor
+    focus: true
+    start_directory: $HOME/Sources
+    panes:
+    - pane
+  - window_name: UnitTest
+    start_directory: $HOME/Sources
+    panes:
+    - pane
+  - window_name: Misc
+    start_directory: $HOME/Sources
+    panes:
+    - pane

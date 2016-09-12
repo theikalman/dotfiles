@@ -1,0 +1,16 @@
+session_name: Go
+start_directory: $GOPATH
+windows:
+  - window_name: Sources
+    layout: main-vertical
+    panes:
+      - shell_command:
+        - cd src
+      - pane
+      - shell_command:
+        - cd bin
+  - window_name: Misc
+    panes:
+      - pane
+      - shell_command:
+        - cd src

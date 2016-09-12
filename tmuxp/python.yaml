@@ -1,24 +1,24 @@
-session_name: PythonEnvironment
+session_name: Python
 windows:
-  - window_name: Vim
+  - window_name: Editor
     focus: true
     start_directory: $WORKON_HOME
     panes:
     - shell_command:
-      - source virtualenvwrapper.sh && archey3
+      - source virtualenvwrapper.sh
       focus: true
   - window_name: TestAndExec
     start_directory: $WORKON_HOME
     panes:
     - shell_command:
-      - source virtualenvwrapper.sh && archey3
+      - source virtualenvwrapper.sh
   - window_name: DocsAndSandbox
     start_directory: $WORKON_HOME
     panes:
     - shell_command:
-      - source virtualenvwrapper.sh && archey3
+      - source virtualenvwrapper.sh
     - shell_command:
-      - source virtualenvwrapper.sh && archey3
+      - source virtualenvwrapper.sh
   - window_name: Misc
     panes:
-    - archey3
+    - pane
