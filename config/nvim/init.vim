@@ -63,6 +63,8 @@ Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
 Plugin 'valloric/youcompleteme'                 " Autocomplete
 Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
+Plugin 'bling/vim-airline'                      " Beautiful vim status-line
+Plugin 'vim-airline/vim-airline-themes'         " Additional themes for airline
 " ------------------------------------------------------------------------}}}
 
 
@@ -86,6 +88,9 @@ let g:syntastic_check_on_wq = 0
 let g:ycm_python_binary_path = '/usr/bin/python3'
 " CtrlP
 let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject)$'
+" airline
+let g:airline_powerline_fonts = 1
+let g:airline_theme='solarized'
 " ------------------------------------------------------------------------}}}
 
 
