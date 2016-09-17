@@ -1,3 +1,5 @@
 # Vim's gitignore
 vim/bundle/*
 !vim/bundle/.gitkeep
+config/nvim/bundle/*
+!config/nvim/bundle/.gitkeep
