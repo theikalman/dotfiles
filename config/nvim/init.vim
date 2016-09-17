@@ -41,7 +41,7 @@ set smartindent
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set novisualbell
 set winwidth=85
-set winheight=30
+set winheight=10
 "set winminwidth=0
 "set winminheight=0
 "filetype on
@@ -87,7 +87,7 @@ let g:syntastic_check_on_wq = 0
 " youcompleteme
 let g:ycm_python_binary_path = '/usr/bin/python3'
 " CtrlP
-let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject|node_modules|typings)$'
 " airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='solarized'
@@ -126,6 +126,10 @@ inoremap <F3> :nohlsearch<CR>
 nnoremap <F8> :NERDTreeToggle<CR>
 " ------------------------------------------------------------------------}}}
 
+" -------------------------- Additional Command --------------------------{{{
+" set *.ts buffer as typescript file
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
+" ------------------------------------------------------------------------}}}
 
 " ------------------------- POWERLINE STATUS CONFIG ----------------------{{{
 " Install using pip, for python3: sudo pip3 install powerline-status
