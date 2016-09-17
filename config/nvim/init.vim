@@ -54,6 +54,7 @@ colorscheme solarized
 
 
 " ---------------------------- PLUGIN LISTS ------------------------------{{{
+Plugin 'leafgarland/typescript-vim'             " Typescript filetype support
 Plugin 'scrooloose/nerdtree'                    " Tree file browser
 Plugin 'tpope/vim-fugitive'                     " Git integration
 Plugin 'scrooloose/syntastic'                   " Syntax checking
