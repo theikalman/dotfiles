@@ -67,6 +67,7 @@ Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
 Plugin 'bling/vim-airline'                      " Beautiful vim status-line
 Plugin 'vim-airline/vim-airline-themes'         " Additional themes for airline
 Plugin 'fatih/vim-go'                           " Golang language support
+Plugin 'joonty/vdebug'                          " XDebug support
 " ------------------------------------------------------------------------}}}
 
 
@@ -120,8 +121,8 @@ nnoremap <M-s> <C-W>s
 nnoremap <M-=> <C-W>=
 nnoremap <M-_> <C-W>_
 " map :nohighlight command
-nnoremap <F3> :nohlsearch<CR>
-inoremap <F3> :nohlsearch<CR>
+"nnoremap <M-F1> :nohlsearch<CR>
+"inoremap <M-F1> :nohlsearch<CR>
 " ------------------------------------------------------------------------}}}
 
 
@@ -144,4 +145,5 @@ autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 " ---------------------------- TODO LISTS --------------------------------{{{
 "  Install EasyMotion to move cursor more quickly
+"  What the best way to map highlight search toggle
 " ------------------------------------------------------------------------}}}
