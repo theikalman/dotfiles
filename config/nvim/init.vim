@@ -135,13 +135,6 @@ nnoremap <F8> :NERDTreeToggle<CR>
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 " ------------------------------------------------------------------------}}}
 
-" ------------------------- POWERLINE STATUS CONFIG ----------------------{{{
-" Install using pip, for python3: sudo pip3 install powerline-status
-"python3 from powerline.vim import setup as powerline_setup
-"python3 powerline_setup()
-"python3 del powerline_setup
-" ------------------------------------------------------------------------}}}
-
 
 " ---------------------------- TODO LISTS --------------------------------{{{
 "  Install EasyMotion to move cursor more quickly
