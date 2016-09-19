@@ -66,6 +66,7 @@ Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
 Plugin 'bling/vim-airline'                      " Beautiful vim status-line
 Plugin 'vim-airline/vim-airline-themes'         " Additional themes for airline
+Plugin 'fatih/vim-go'                           " Golang language support
 " ------------------------------------------------------------------------}}}
 
 
