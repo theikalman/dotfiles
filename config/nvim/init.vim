@@ -46,7 +46,7 @@ set winheight=10
 "set winminheight=0
 "filetype on
 filetype plugin indent on
-"set mouse=a                                    " I prefer with no mouse
+set mouse=
 syntax enable
 set background=dark
 colorscheme solarized
