@@ -1,6 +1,9 @@
 session_name: Go
 start_directory: $GOPATH
 windows:
+  - window_name: NeoVim
+    panes:
+      - pane
   - window_name: Sources
     layout: main-vertical
     panes:

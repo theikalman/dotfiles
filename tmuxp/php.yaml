@@ -1,6 +1,6 @@
 session_name: PHP
 windows:
-  - window_name: Editor
+  - window_name: NeoVim
     focus: true
     start_directory: $HOME/Sources
     panes:
