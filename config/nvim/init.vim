@@ -68,6 +68,8 @@ Plugin 'bling/vim-airline'                      " Beautiful vim status-line
 Plugin 'vim-airline/vim-airline-themes'         " Additional themes for airline
 Plugin 'fatih/vim-go'                           " Golang language support
 Plugin 'joonty/vdebug'                          " XDebug support
+Plugin 'xolox/vim-misc'                         " Dependency for Notes plugin
+Plugin 'xolox/vim-notes'                        " Notes
 " ------------------------------------------------------------------------}}}
 
 
@@ -95,6 +97,8 @@ let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject|node_modul
 let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
 let g:airline#extensions#tabline#enabled = 1
+" notes
+let g:notes_directories = ['~/Douments/Notes']
 " ------------------------------------------------------------------------}}}
 
 
