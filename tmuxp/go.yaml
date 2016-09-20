@@ -2,6 +2,7 @@ session_name: Go
 start_directory: $GOPATH
 windows:
   - window_name: NeoVim
+    focus: true
     panes:
       - pane
   - window_name: Sources
