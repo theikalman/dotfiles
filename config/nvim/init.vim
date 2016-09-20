@@ -138,8 +138,8 @@ nnoremap <M-s> <C-W>s
 nnoremap <M-=> <C-W>=
 nnoremap <M-_> <C-W>_
 " map :nohighlight command
-"nnoremap <M-F1> :nohlsearch<CR>
-"inoremap <M-F1> :nohlsearch<CR>
+nnoremap <M-h> :nohlsearch<CR>
+inoremap <M-h> <Esc>:nohlsearch<CR>li
 " ------------------------------------------------------------------------}}}
 
 
