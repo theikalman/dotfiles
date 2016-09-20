@@ -92,7 +92,8 @@ let g:syntastic_check_on_wq = 0
 " youcompleteme
 let g:ycm_python_binary_path = '/usr/bin/python3'
 " CtrlP
-let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject|node_modules|typings)$'
+let g:ctrlp_custom_ignore = '\v[\/](\.git|\.hg|\.svn|vendor|nbproject|node_modules|typings|database|)$'
+let NERDTreeIgnore=['database', 'nbproject', 'vendor']
 " airline
 let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
