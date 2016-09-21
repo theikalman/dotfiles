@@ -92,7 +92,7 @@ DEFAULT_USER="ajiyakin"
 
 # Set to use powerline, see https://github.com/powerline/powerline
 #. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh # ArchLinux
-#. /usr/lib/python3.5/site-packages/powerline/bindings/zsh/powerline.zsh # Ubuntu
+#. /usr/local/lib/python3.5/dist-packages/powerline/bindings/zsh/powerline.zsh # Ubuntu
 
 # Virtualenvwrapper configurations
 export WORKON_HOME="$HOME/Envs"
@@ -105,5 +105,5 @@ export PATH="$PATH:$GOPATH/bin"
 # Gem bin executable
 export PATH="$PATH:$HOME/.gem/ruby/2.3.0/bin"
 
-# PHP XDebug Env
+# XDEBUG Config
 export XDEBUG_CONFIG="idekey=debuging-xdebug"
