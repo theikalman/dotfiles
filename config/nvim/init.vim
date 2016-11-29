@@ -112,6 +112,16 @@ let g:go_fmt_command = "goimports"
 let g:go_metalinter_autosave = 1
 let g:go_metalinter_autosave_enabled = ['vet', 'golint', 'errcheck']
 let g:go_term_enabled = 1
+" Toggle relative number, by default relative number is on
+set relativenumber
+function! NumberToggle()
+    if(&relativenumber ==1)
+        set norelativenumber
+    else
+        set relativenumber
+    endif
+endfunc
+nnoremap <C-n> :call NumberToggle()<cr>
 " ------------------------------------------------------------------------}}}
 
 
