@@ -99,7 +99,7 @@ let g:airline_powerline_fonts = 1
 let g:airline_theme='papercolor'
 let g:airline#extensions#tabline#enabled = 1
 " notes
-let g:notes_directories = ['~/Douments/Notes']
+let g:notes_directories = ['~/Documents/Notes']
 " vim-go
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
