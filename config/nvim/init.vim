@@ -70,6 +70,7 @@ Plugin 'fatih/vim-go'                           " Golang language support
 Plugin 'joonty/vdebug'                          " XDebug support
 Plugin 'xolox/vim-misc'                         " Dependency for Notes plugin
 Plugin 'xolox/vim-notes'                        " Notes
+Plugin 'godlygeek/tabular'                      " Text filtering and alignment
 " ------------------------------------------------------------------------}}}
 
 
