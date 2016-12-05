@@ -184,6 +184,5 @@ autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 
 
 " ---------------------------- TODO LISTS --------------------------------{{{
-"  Install EasyMotion to move cursor more quickly
 "  What the best way to map highlight search toggle
 " ------------------------------------------------------------------------}}}
