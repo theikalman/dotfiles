@@ -179,7 +179,13 @@ let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 " ------------------------------------------------------------------------}}}
 
-" -------------------------- Additional Command --------------------------{{{
+" ---------------------------- TODO LISTS --------------------------------{{{
+"  What the best way to map highlight search toggle
+" ------------------------------------------------------------------------}}}
+
+" ---------------------- Additional Custom Scripts -----------------------{{{
+"  Some of handy scripts that useful -- for me :P
+
 " set *.ts buffer as typescript file
 autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript
 " set ag over grep for search (faster ^_-)
@@ -194,16 +200,6 @@ if executable('ag')
   " ag is fast enough that CtrlP doesn't need to cache
   "let g:ctrlp_use_caching = 0
 endif
-" ------------------------------------------------------------------------}}}
-
-
-" ---------------------------- TODO LISTS --------------------------------{{{
-"  What the best way to map highlight search toggle
-" ------------------------------------------------------------------------}}}
-
-" ---------------------- Additional Custom Scripts -----------------------{{{
-"  Some of handy scripts that useful -- for me :P
-" ------------------------------------------------------------------------}}}
 
 " http://www.vim.org/scripts/script.php?script_id=1071
 " BufOnly.vim  -  Delete all the buffers except the current/named buffer.
@@ -275,3 +271,4 @@ function! BufOnly(buffer, bang)
 	endif
 
 endfunction
+" ------------------------------------------------------------------------}}}
