@@ -48,7 +48,7 @@ set winminheight=0
 filetype plugin indent on
 "set mouse=a                                    " I prefer with no mouse
 syntax enable
-set background=dark
+set background=light
 colorscheme solarized
 " ------------------------------------------------------------------------}}}
 
@@ -114,14 +114,6 @@ inoremap <F3> :nohlsearch<CR>
 
 " ------------------------- PLUGIN'S KEY MAPPING -------------------------{{{
 nnoremap <F8> :NERDTreeToggle<CR>
-" ------------------------------------------------------------------------}}}
-
-
-" ------------------------- POWERLINE STATUS CONFIG ----------------------{{{
-" Install using pip, for python3: sudo pip3 install powerline-status
-python3 from powerline.vim import setup as powerline_setup
-python3 powerline_setup()
-python3 del powerline_setup
 " ------------------------------------------------------------------------}}}
 
 
