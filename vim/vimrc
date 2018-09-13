@@ -44,6 +44,7 @@ set winwidth=85
 set winheight=30
 set winminwidth=0
 set winminheight=0
+set relativenumber
 "filetype on
 filetype plugin indent on
 "set mouse=a                                    " I prefer with no mouse
