@@ -53,14 +53,16 @@ colorscheme solarized
 
 
 " ---------------------------- PLUGIN LISTS ------------------------------{{{
-Plugin 'tpope/vim-fugitive'                     " Git integration
-Plugin 'scrooloose/syntastic'                   " Syntax checking
-Plugin 'kien/ctrlp.vim'                         " File finder
-Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
-Plugin 'mattn/emmet-vim'                        " Works with HTML
-Plugin 'tpope/vim-surround'                     " Surrounding thing
-Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
-Plugin 'fatih/vim-go'                           " Support for Golang
+Plugin 'tpope/vim-fugitive'              " Git integration
+Plugin 'scrooloose/syntastic'            " Syntax checking
+Plugin 'kien/ctrlp.vim'                  " File finder
+Plugin 'airblade/vim-gitgutter'          " Show a sign for changed line
+Plugin 'mattn/emmet-vim'                 " Works with HTML
+Plugin 'tpope/vim-surround'              " Surrounding thing
+Plugin 'jiangmiao/auto-pairs'            " Autoclose bracket, etc.
+Plugin 'fatih/vim-go'                    " Support for Golang
+Plugin 'vim-airline/vim-airline'         " Beautiful status bar
+Plugin 'vim-airline/vim-airline-themes'  " Theme collection for vim-airline
 " ------------------------------------------------------------------------}}}
 
 
@@ -86,6 +88,9 @@ let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor)|(\.(swp|ico|git|svn))$'
 let g:go_fmt_command = "goimports"
 " https://github.com/fatih/vim-go/issues/502
 let g:go_fmt_experimental = 1 " workaround for auto-fold when save go file
+" vim-airline
+let g:airline_powerline_fonts = 1
+let g:airline#extensions#tabline#enabled = 1
 " ------------------------------------------------------------------------}}}
 
 
