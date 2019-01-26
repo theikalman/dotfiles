@@ -20,10 +20,6 @@ set colorcolumn=80
 set encoding=utf-8
 set fileencoding=utf-8
 set foldmethod=syntax "vim-go support this by default
-"set foldmethod=indent
-"set foldlevel=20
-"set foldlevelstart=20
-"set nofoldenable
 set nowrap
 set gdefault
 set hlsearch
@@ -43,9 +39,7 @@ set winheight=30
 set winminwidth=0
 set winminheight=0
 set relativenumber
-"filetype on
 filetype plugin indent on
-"set mouse=a                                    " I prefer with no mouse
 syntax enable
 set background=dark
 colorscheme solarized
