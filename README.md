@@ -36,7 +36,3 @@ Vim Configurations
 3. Go to vim and execute `:PluginInstall` command. After that, configure
    the plugin.
 
-### Configure Plugins
-
-#### youcompleteme
-Execute command: `cd ~/.vim/bundle/youcompleteme && ./install.py --clang-completer`
