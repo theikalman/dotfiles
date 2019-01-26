@@ -21,6 +21,11 @@ reference: [oh-my-zsh](https://github.com/robbyrussell/oh-my-zsh)
 ### Create symbolic link to this zsh configuration
 `ln -s <path_to_this_repo>/zsh/zshrc ~/.zshrc`
 
+NeoVim Configurations
+-------------------------------------------------------------------------------
+1. Create symbolic link to `nvim` folder under `~/.config/` directory
+2. Open neovim `nvim`
+3. Install all plugins by executing `:PluginInstall`
 
 Vim Configurations
 -------------------------------------------------------------------------------
