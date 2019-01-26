@@ -4,3 +4,4 @@ vim/bundle/*
 config/nvim/bundle/*
 !config/nvim/bundle/.gitkeep
 vim/view/*
+nvim/bundle/*
