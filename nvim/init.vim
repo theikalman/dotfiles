@@ -116,20 +116,5 @@ nnoremap <leader>nh :nohlsearch<CR>
 
 
 " ------------------------- PLUGIN'S KEY MAPPING -------------------------{{{
-nnoremap <F8> :NERDTreeToggle<CR>
-nnoremap <leader>] :GoDoc<CR>
 " ------------------------------------------------------------------------}}}
 
-
-" ---------------------------- TODO LISTS --------------------------------{{{
-"  Install EasyMotion to move cursor more quickly
-" ------------------------------------------------------------------------}}}
-
-
-" ------------------------------------ NOTES -----------------------------{{{
-"                      ----------- about Alt key -----------
-"  In my terminal, alt key mapping using <A-...> doesn't works.
-"  So I have to map alt key by it's signal by going to insert mode and press
-"  Ctrl-V then press the combination of alt key and the key who whant to
-"  combine to. I use this (alt key) to remap some windows operations.
-" ------------------------------------------------------------------------}}}
