@@ -21,6 +21,7 @@ set colorcolumn=80
 set cursorline
 set encoding=utf-8
 set fileencoding=utf-8
+set foldmethod=syntax "vim-go support this by default
 "set foldmethod=indent
 "set foldlevel=20
 "set foldlevelstart=20
@@ -31,7 +32,7 @@ set hlsearch
 set ignorecase
 set incsearch
 set list
-set listchars=tab:▸\ ,eol:¬,nbsp:⋅,trail:•
+set listchars=tab:⇥\ ,eol:¬,nbsp:⋅,trail:•
 set noswapfile
 set number
 set showmatch
@@ -49,7 +50,7 @@ set relativenumber
 filetype plugin indent on
 "set mouse=a                                    " I prefer with no mouse
 syntax enable
-set background=light
+set background=dark
 colorscheme solarized
 " ------------------------------------------------------------------------}}}
 
@@ -64,6 +65,8 @@ Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
 Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
 Plugin 'fatih/vim-go'                           " Support for Golang
+Plugin 'vim-airline/vim-airline'                " Statusbar info. display
+Plugin 'vim-airline/vim-airline-themes'         " vim-airline themen plugin
 " ------------------------------------------------------------------------}}}
 
 
@@ -83,31 +86,37 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+" ctrlp
+let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor)|(\.(swp|ico|git|svn))$'
+" vim-go
+let g:go_fmt_command = "goimports"
+" https://github.com/fatih/vim-go/issues/502
+let g:go_fmt_experimental = 1 " workaround for auto-fold when save go file
 " ------------------------------------------------------------------------}}}
 
 
 " -------------------------- COMMON KEY MAPPING --------------------------{{{
 let mapleader=','                                 " Remap leader to ,
 " map window navigation to Alt+hjkl
-nnoremap h <C-W>h
-nnoremap j <C-W>j
-nnoremap k <C-W>k
-nnoremap l <C-W>l
+nnoremap <leader>wh <C-W>h
+nnoremap <leader>wj <C-W>j
+nnoremap <leader>wk <C-W>k
+nnoremap <leader>wl <C-W>l
 " map window movement to Alt+HJKL
-nnoremap H <C-W>H
-nnoremap J <C-W>J
-nnoremap K <C-W>K
-nnoremap L <C-W>L
+nnoremap <leader>wH <C-W>H
+nnoremap <leader>wJ <C-W>J
+nnoremap <leader>wK <C-W>K
+nnoremap <leader>wL <C-W>L
 " map quit and write
-nnoremap q :q<CR>
-nnoremap Q :q!<CR>
-nnoremap w :w<CR>
+nnoremap <leader>q :q<CR>
+nnoremap <leader>Q :q!<CR>
+nnoremap <leader>fs :w<CR>
 " map split window
-nnoremap v <C-W>v
-nnoremap s <C-W>s
+nnoremap <leader>wv <C-W>v
+nnoremap <leader>ws <C-W>s
 " map window resize
-nnoremap = <C-W>=
-nnoremap _ <C-W>_
+nnoremap <leader>w= <C-W>=
+nnoremap <leader>w_ <C-W>_
 " map :nohighlight command
 nnoremap <F3> :nohlsearch<CR>
 inoremap <F3> :nohlsearch<CR>
@@ -116,6 +125,7 @@ inoremap <F3> :nohlsearch<CR>
 
 " ------------------------- PLUGIN'S KEY MAPPING -------------------------{{{
 nnoremap <F8> :NERDTreeToggle<CR>
+nnoremap <leader>] :GoDoc<CR>
 " ------------------------------------------------------------------------}}}
 
 
