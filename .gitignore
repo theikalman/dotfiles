@@ -3,3 +3,4 @@ vim/bundle/*
 !vim/bundle/.gitkeep
 config/nvim/bundle/*
 !config/nvim/bundle/.gitkeep
+vim/view/*
