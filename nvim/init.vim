@@ -45,6 +45,11 @@ set background=dark
 colorscheme solarized
 " ------------------------------------------------------------------------}}}
 
+" --------------------------- CUSTOM SETTINS -----------------------------{{{
+" set yaml file indentation to 2
+au! BufNewFile,BufReadPost *.{yaml,yml} set filetype=yaml foldmethod=indent
+autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
+" ------------------------------------------------------------------------}}}
 
 " ---------------------------- PLUGIN LISTS ------------------------------{{{
 Plugin 'tpope/vim-fugitive'              " Git integration
