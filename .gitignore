@@ -5,3 +5,6 @@ config/nvim/bundle/*
 !config/nvim/bundle/.gitkeep
 vim/view/*
 nvim/bundle/*
+
+# ignore generated file from vim (file explorer)
+nvim/.netrwhist
