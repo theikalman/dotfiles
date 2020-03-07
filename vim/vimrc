@@ -16,57 +16,64 @@ Plugin 'VundleVim/Vundle.vim'
 " --------------------------- COMMON SETTINS -----------------------------{{{
 set t_Co=256
 set autoindent
+set smartindent
 set backspace=indent,eol,start
 set colorcolumn=80
 set cursorline
 set encoding=utf-8
 set fileencoding=utf-8
-set foldmethod=syntax "vim-go support this by default
+"set foldmethod=syntax
 "set foldmethod=indent
 "set foldlevel=20
 "set foldlevelstart=20
 "set nofoldenable
 set nowrap
+set nobackup
+set nowritebackup
+set noswapfile
 set gdefault
 set hlsearch
 set ignorecase
 set incsearch
 set list
-set listchars=tab:⇥\ ,eol:¬,nbsp:⋅,trail:•
-set noswapfile
+set listchars=tab:\ \ ,eol:¬,nbsp:⋅,trail:•
 set number
 set showmatch
 set smartcase
-set smartindent
 set term=screen-256color
 set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 set novisualbell
-set winwidth=85
-set winheight=30
+set winwidth=79
+set winheight=25
 set winminwidth=0
 set winminheight=0
 set relativenumber
 "filetype on
 filetype plugin indent on
-"set mouse=a                                    " I prefer with no mouse
-syntax enable
+set mouse=a                                    " I prefer with no mouse
+syntax on
 set background=dark
-colorscheme solarized
+colorscheme PaperColor
+" settings required by govim
+" https://github.com/govim/govim/blob/master/cmd/govim/config/minimal.vimrc
+set ttymouse=sgr
+set updatetime=500
+set balloondelay=250
+set signcolumn=yes
+if has("patch-8.1.1904")
+  set completeopt+=popup
+  set completepopup=align:menu,border:off,highlight:Pmenu
+endif
 " ------------------------------------------------------------------------}}}
 
 
 " ---------------------------- PLUGIN LISTS ------------------------------{{{
-Plugin 'scrooloose/nerdtree'                    " Tree file browser
 Plugin 'tpope/vim-fugitive'                     " Git integration
 Plugin 'scrooloose/syntastic'                   " Syntax checking
-Plugin 'tpope/vim-surround'                     " Surrounding thing
-Plugin 'kien/ctrlp.vim'                         " File finder
 Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
 Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
-Plugin 'fatih/vim-go'                           " Support for Golang
-Plugin 'vim-airline/vim-airline'                " Statusbar info. display
-Plugin 'vim-airline/vim-airline-themes'         " vim-airline themen plugin
+Plugin 'govim/govim'                           " Golang with gopls
 " ------------------------------------------------------------------------}}}
 
 
@@ -86,12 +93,6 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
-" ctrlp
-let g:ctrlp_custom_ignore = '\v[\/](node_modules|vendor)|(\.(swp|ico|git|svn))$'
-" vim-go
-let g:go_fmt_command = "goimports"
-" https://github.com/fatih/vim-go/issues/502
-let g:go_fmt_experimental = 1 " workaround for auto-fold when save go file
 " ------------------------------------------------------------------------}}}
 
 
@@ -118,19 +119,12 @@ nnoremap <leader>ws <C-W>s
 nnoremap <leader>w= <C-W>=
 nnoremap <leader>w_ <C-W>_
 " map :nohighlight command
-nnoremap <F3> :nohlsearch<CR>
-inoremap <F3> :nohlsearch<CR>
+"nnoremap <F3> :nohlsearch<CR>
+"inoremap <F3> :nohlsearch<CR>
 " ------------------------------------------------------------------------}}}
 
 
 " ------------------------- PLUGIN'S KEY MAPPING -------------------------{{{
-nnoremap <F8> :NERDTreeToggle<CR>
-nnoremap <leader>] :GoDoc<CR>
-" ------------------------------------------------------------------------}}}
-
-
-" ---------------------------- TODO LISTS --------------------------------{{{
-"  Install EasyMotion to move cursor more quickly
 " ------------------------------------------------------------------------}}}
 
 
