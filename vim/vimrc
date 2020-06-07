@@ -52,8 +52,8 @@ set relativenumber
 filetype plugin indent on
 set mouse=a                                    " I prefer with no mouse
 syntax on
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme PaperColor
 " settings required by govim
 " https://github.com/govim/govim/blob/master/cmd/govim/config/minimal.vimrc
 set ttymouse=sgr
