@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/home/aji/.oh-my-zsh
+export ZSH=/home/ajiyakin/.oh-my-zsh
 
 # Set name of the theme to load.
 # Look in ~/.oh-my-zsh/themes/
@@ -84,7 +84,7 @@ fi
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 # Set default user (to hide yourself when you're logged in on terminal)
-DEFAULT_USER="aji"
+DEFAULT_USER="ajiyakin"
 
 
 # Add this to fix tmux syntax highlight problem

@@ -53,15 +53,11 @@ autocmd FileType yaml setlocal ts=2 sts=2 sw=2 expandtab
 
 " ---------------------------- PLUGIN LISTS ------------------------------{{{
 Plugin 'tpope/vim-fugitive'              " Git integration
-Plugin 'scrooloose/syntastic'            " Syntax checking
-Plugin 'kien/ctrlp.vim'                  " File finder
-Plugin 'airblade/vim-gitgutter'          " Show a sign for changed line
+"Plugin 'airblade/vim-gitgutter'          " Show a sign for changed line
 Plugin 'mattn/emmet-vim'                 " Works with HTML
 Plugin 'tpope/vim-surround'              " Surrounding thing
 Plugin 'jiangmiao/auto-pairs'            " Autoclose bracket, etc.
-Plugin 'fatih/vim-go'                    " Support for Golang
-Plugin 'vim-airline/vim-airline'         " Beautiful status bar
-Plugin 'vim-airline/vim-airline-themes'  " Theme collection for vim-airline
+Plugin 'fatih/vim-go'                    " Golang support
 " ------------------------------------------------------------------------}}}
 
 
