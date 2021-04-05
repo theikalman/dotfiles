@@ -1,0 +1,14 @@
+session_name: AccelByte Development Console
+windows:
+
+- window_name: VPN
+  layout: tiled
+  start_directory: ~/AccelByte/Scripts/
+  panes:
+    - echo "Connect to VPN"
+
+- window_name: Editor
+  layout: tiled
+  start_directory: $GOPATH/src/accelbyte.net/
+  panes:
+    - echo "Editor"
