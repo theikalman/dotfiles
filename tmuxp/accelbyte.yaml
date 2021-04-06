@@ -7,8 +7,19 @@ windows:
   panes:
     - echo "Connect to VPN"
 
+- window_name: k8s
+  layout: tiled
+  start_directory: ~/AccelByte/Scripts/
+  panes:
+    - echo "Kubernetes related stuff here"
+
 - window_name: Editor
   layout: tiled
   start_directory: $GOPATH/src/accelbyte.net/
   panes:
     - echo "Editor"
+
+- window_name: Misc
+  layout: tiled
+  panes:
+    - echo "Misc"

@@ -53,17 +53,7 @@ filetype plugin indent on
 "set mouse=a                                    " comment to disable mouse
 syntax on
 set background=dark
-colorscheme PaperColor
-" settings required by govim
-" https://github.com/govim/govim/blob/master/cmd/govim/config/minimal.vimrc
-"set ttymouse=sgr
-"set updatetime=500
-"set balloondelay=250
-"set signcolumn=yes
-"if has("patch-8.1.1904")
-"  set completeopt+=popup
-"  set completepopup=align:menu,border:off,highlight:Pmenu
-"endif
+colorscheme solarized
 " ------------------------------------------------------------------------}}}
 
 
@@ -73,8 +63,7 @@ Plugin 'scrooloose/syntastic'                   " Syntax checking
 Plugin 'airblade/vim-gitgutter'                 " Show a sign for changed line
 Plugin 'mattn/emmet-vim'                        " Works with HTML
 Plugin 'jiangmiao/auto-pairs'                   " Autoclose bracket, etc.
-Plugin 'govim/govim'                            " Golang with gopls
-Plugin 'lervag/vimtex'                          " LaTex
+Plugin 'fatih/vim-go'                           " Golang plugin
 " ------------------------------------------------------------------------}}}
 
 
