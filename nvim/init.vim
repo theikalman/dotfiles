@@ -101,6 +101,8 @@ nnoremap <leader>wH <C-W>H
 nnoremap <leader>wJ <C-W>J
 nnoremap <leader>wK <C-W>K
 nnoremap <leader>wL <C-W>L
+" map move current window to a new tab
+nnoremap <leader>wT <C-W>T
 " map quit and write
 nnoremap <leader>q :q<CR>
 nnoremap <leader>Q :q!<CR>
