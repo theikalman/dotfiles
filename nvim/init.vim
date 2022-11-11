@@ -58,7 +58,6 @@ Plugin 'mattn/emmet-vim'                 " Works with HTML
 Plugin 'tpope/vim-surround'              " Surrounding thing
 Plugin 'jiangmiao/auto-pairs'            " Autoclose bracket, etc.
 Plugin 'fatih/vim-go'                    " Golang support
-Plugin 'godlygeek/tabular'               " for aligning assignment
 " ------------------------------------------------------------------------}}}
 
 
